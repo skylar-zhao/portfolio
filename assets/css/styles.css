@@ -1,0 +1,111 @@
+.jumbotron {
+    padding-top: calc(6rem + 74px);
+}
+
+.img-fluid {
+    object-fit: contain;
+}
+
+.navbar {
+    background: #33345ebf;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
+    width: 90vw;
+    margin: 0 auto;
+    padding: .5rem 1.5rem;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.modal-content {
+    background: rgba(21, 17, 45, 0.831);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body {
+    background: rgb(16, 17, 62);
+    /* background: linear-gradient(180deg, rgba(16,17,62,1) 0%, rgb(39, 14, 56) 100%); */
+    background: linear-gradient(180deg, rgb(7, 7, 37) 0%, rgb(31, 7, 46) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Noto Sans', serif;
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+}
+
+/* p {
+    font-weight: 300;
+} */
+
+/* span heading lines */
+h1::before,
+h1::after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid #ff6b89;
+    ;
+    margin: 0rem 2rem 1.4rem 2rem;
+}
+
+h1::before {
+    margin: 0rem 2rem 1.4rem 0rem
+}
+
+h1::after {
+    margin: 0rem 0rem 1.4rem 2rem
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.nav-link {
+    font-weight: 600;
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+/* project hover effect */
+.portfolio-item {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    max-width: 25rem;
+    overflow: hidden;
+    height: 17rem;
+    width: 100%;
+}
+
+.portfolio-item-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    background-color: #ff6b89;
+}
+
+.portfolio-item-caption:hover {
+    opacity: 1;
+}
+
+.portfolio-item-caption-content {
+    font-size: 1.5rem;
+}
+
+fa-brands fa-github fa-5x {
+    text-shadow: 0px 0px 1px #ff6b89, 0px 0px 1px #ff6b89;
+    color: transparent;
+}

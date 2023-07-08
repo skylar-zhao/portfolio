@@ -1,0 +1,30 @@
+$primary:       #ff6b89;
+$secondary:     #1c1c68;
+
+// $secondary:     #181a5b;
+
+// $navbar-color: #fff;
+// $navbar-brand-hover-color: #ff6b89;
+// $nav-link-color: #fff;
+// $nav-link-hover-color: #ff6b89;
+$link-color:                 #ff6b89; 
+$link-hover-color:           #ffccd6; 
+$navbar-toggler-focus-width: .1rem;
+// $font-weight: 300;
+
+// import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';
+                                                 
+.navbar-nav {
+  --bs-nav-link-color: #ff6b89;
+  --bs-nav-link-hover-color: #ffccd6;
+  --bs-navbar-active-color: #ffccd6;
+}
+
+.navbar-dark {
+  --bs-navbar-toggler-border-color: #ffffffc0;
+}
+
+:root {
+--bs-gutter-x: 1.5rem;
+}
