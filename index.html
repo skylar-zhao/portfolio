@@ -36,9 +36,14 @@
             <a class="navbar-brand text-primary" href="#page-top">
                 <h3 class="text-white">Skylar Zhao</h3>
             </a>
-            <button class="navbar-toggler text-uppercase font-weight-bold text-light my-2 mx-0 rounded" type="button"
+            <!-- <button class="navbar-toggler text-uppercase font-weight-bold text-light my-2 mx-0 rounded" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
                 aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -132,6 +137,20 @@
             <h1 class="page-section-heading text-center text-uppercase text-primary">Projects</h1>
             <div class="row justify-content-center">
                 <p class="lead text-center">Web Development</p>
+
+                <!-- Classifieds Project Item-->
+                <div class="fill col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto rounded" data-bs-toggle="modal"
+                        data-bs-target="#classifiedsModal" style="background: url(assets/portfolio/classifieds/1.jpeg); background-size: cover;
+                    background-position: center;">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <p>Classifieds</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <!-- Resources Project Item-->
                 <div class="fill col-md-6 col-lg-4 mb-5">
@@ -280,11 +299,11 @@
                 <div class="modal-header border-0">
                     <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body text-center pb-5">
+                <div class="modal-body pb-5">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
-                                <h2 class="portfolio-modal-title text-primary text-uppercase mb-3">
+                                <h2 class="portfolio-modal-title text-center text text-primary text-uppercase mb-3">
                                     Saucy Porka Redesign</h2>
                                 <p>I redesigned Saucy Porka's website to get practice with wireframing,
                                     designing style tiles, and creating a stylized, interactive prototype for a website.
@@ -364,10 +383,12 @@
                                 <img class="img-fluid rounded mb-5" src="assets/portfolio/saucy_porka/10.png"
                                     alt="..." />
                                 <p></p>
-                                <button class="btn btn-outline-primary" data-bs-dismiss="modal">
-                                    <i class="fas fa-xmark fa-fw"></i>
-                                    Close
-                                </button>
+                                <div class="text-center"> <button class="btn btn-outline-primary"
+                                        data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close
+                                    </button></div>
+
                             </div>
                         </div>
                     </div>
@@ -384,11 +405,12 @@
                 <div class="modal-header border-0">
                     <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body text-center pb-5">
+                <div class="modal-body pb-5">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
-                                <h2 class="portfolio-modal-title text-primary text-uppercase mb-3"> Bridgeport Bakery
+                                <h2 class="portfolio-modal-title text-center text text-primary text-uppercase mb-3">
+                                    Bridgeport Bakery
                                     Redesign
                                 </h2>
                                 <p>A redesigned prototype of Bridgeport Bakery's desktop site.</p>
@@ -424,10 +446,11 @@
                                     alt="...">
                                 <img class="img-fluid rounded mb-5" src="assets/portfolio/bridgeport_bakery/5.jpeg"
                                     alt="...">
-                                <button class="btn btn-outline-primary" data-bs-dismiss="modal">
-                                    <i class="fas fa-xmark fa-fw"></i>
-                                    Close
-                                </button>
+                                <div class="text-center"> <button class="btn btn-outline-primary"
+                                        data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close
+                                    </button></div>
                             </div>
                         </div>
                     </div>
@@ -444,11 +467,12 @@
                 <div class="modal-header border-0">
                     <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body text-center pb-5">
+                <div class="modal-body pb-5">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
-                                <h2 class="portfolio-modal-title text-primary text-uppercase mb-3"> Artist & Craftsman
+                                <h2 class="portfolio-modal-title text-center text text-primary text-uppercase mb-3">
+                                    Artist & Craftsman
                                     UI Fixes</h2>
                                 <p>Artist & Craftsman Supply is a small, employee-owned arts supply store chain. They
                                     have physical locations across the country (and one in Chicago, but sadly, that
@@ -456,7 +480,7 @@
                                     can browse products and buy them directly from the site.</p>
                                 <p><a href="https://web.archive.org/web/20220524225133/https://artistcraftsman.com/">Link
                                         to Artist & Craftsman's Site (archive.org link)</a></p>
-                                <h3>Critiques</h3>
+                                <h3 class="mt-1 mb-3">Critiques</h3>
                                 <p>The “Shop” menu is needlessly bloated with every option possible at once. Instead,
                                     the menu should progressively display options based on the category in the menu the
                                     user has moused over. (Also, the line spacing within the same product category and
@@ -482,7 +506,7 @@
                                 </p>
                                 <img class="img-fluid rounded mb-5" src="assets/portfolio/artist_craftsman/4.jpeg"
                                     alt="...">
-                                <h3>Redesign</h3>
+                                <h3 class="mt-1 mb-3">Redesign</h3>
                                 <h5>Design Objectives/Solutions</h5>
                                 <ul class="text-start">
                                     <li>Display the menu for the product categories in the header in a less bloated way
@@ -505,7 +529,7 @@
                                     a physical store’s address and hours, as well as relevant contact information, such
                                     as store, support, and corporate phone numbers).
                                 </p>
-                                <h3>Prototype</h3>
+                                <h3 class="mt-1 mb-3">Prototype</h3>
                                 <p>
                                     <a
                                         href="https://www.figma.com/proto/GNcYpK6FUdBCSPvMo5O08l/Artist-%26-Craftsman-Redesign?node-id=3-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A2&mode=design&t=Ei4xcODL019itLhp-1">
@@ -552,8 +576,9 @@
                                 </p>
                                 <img class="img-fluid rounded mb-5" src="assets/portfolio/artist_craftsman/9.png"
                                     alt="...">
-                                <h3>Reflection</h3>
-                                <p>Since the A&C’s original website was already very usable, I did not find it necessary
+                                <h3 class="mt-1 mb-3">Reflection</h3>
+                                <p class="mb-5">Since the A&C’s original website was already very usable, I did not find
+                                    it necessary
                                     to propose any major restructuring of the site or any pages. Rather, my redesign
                                     focuses on implementing certain design principles, such as consistency, Hick’s Law,
                                     and progressive disclosure, better than the original site. This is shown in the way
@@ -562,10 +587,11 @@
                                     the main process of browsing the site for a product, as this process covers the
                                     pages I had the most design issues with.
                                 </p>
-                                <button class="btn btn-outline-primary" data-bs-dismiss="modal">
-                                    <i class="fas fa-xmark fa-fw"></i>
-                                    Close
-                                </button>
+                                <div class="text-center"> <button class="btn btn-outline-primary"
+                                        data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close
+                                    </button></div>
                             </div>
                         </div>
                     </div>
@@ -573,6 +599,56 @@
             </div>
         </div>
     </div>
+
+    <!-- Classifieds Modal -->
+    <div class="portfolio-modal modal fade" id="classifiedsModal" tabindex="-1" aria-labelledby="classifiedsodal"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h2 class="portfolio-modal-title text-center text text-primary text-uppercase mb-3">
+                                    Classifieds</h2>
+                                <p>My take on classified newspaper ads as a simple web app written in Node.js.</p>
+                                <p>A mobile-freindly site that allows users to view, create, edit, and delete their
+                                    posts, as well as view all other posts.</p>
+                                <p class="mb-4">Link to GitHub repo, with a detailed write-up: <a
+                                        href="https://github.com/skylar-zhao/classifieds">Classifieds
+                                    </a></p>
+                                <h3 class="mt-1 mb-3">Video Demo</h3>
+                                <video width="720" controls class="mb-5">
+                                    <source src="assets/portfolio/classifieds/demo.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                                <h3 class="mt-1 mb-3">Screenshots</h3>
+                                <h4>Desktop Layout</h4>
+                                <img class="img-fluid rounded mb-5" src="assets/portfolio/classifieds/1.jpeg" alt="...">
+                                <h4>Mobile Layout</h4>
+                                <img class="img-fluid rounded mb-5" src="assets/portfolio/classifieds/2.jpeg" alt="...">
+                                <h4>Profile Page</h4>
+                                <img class="img-fluid rounded mb-5" src="assets/portfolio/classifieds/3.jpeg" alt="...">
+                                <h4>New Post Page</h4>
+                                <img class="img-fluid rounded mb-5" src="assets/portfolio/classifieds/4.jpeg" alt="...">
+                                <h4>Edit Post Page</h4>
+                                <img class="img-fluid rounded mb-5" src="assets/portfolio/classifieds/5.jpeg" alt="...">
+                                <div class="text-center"> <button class="btn btn-outline-primary"
+                                        data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close
+                                    </button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Vaporwave Modal -->
     <div class="portfolio-modal modal fade" id="vaporwaveModal" tabindex="-1" aria-labelledby="vaporwaveModal"
         aria-hidden="true">
@@ -581,11 +657,11 @@
                 <div class="modal-header border-0">
                     <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body text-center pb-5">
+                <div class="modal-body pb-5">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
-                                <h2 class="portfolio-modal-title text-primary text-uppercase mb-3">
+                                <h2 class="portfolio-modal-title text-center text text-primary text-uppercase mb-3">
                                     The West Wing Gallery of Vaporwave</h2>
                                 <p>This desktop website was made from scratch as to practice flexbox and absolute
                                     positioning in CSS.
@@ -602,10 +678,11 @@
                                     alt="..." />
                                 <img class="img-fluid rounded mb-5" src="./assets/portfolio/vaporwave/4.png"
                                     alt="..." />
-                                <button class="btn btn-outline-primary" data-bs-dismiss="modal">
-                                    <i class="fas fa-xmark fa-fw"></i>
-                                    Close
-                                </button>
+                                <div class="text-center"> <button class="btn btn-outline-primary"
+                                        data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close
+                                    </button></div>
                             </div>
                         </div>
                     </div>
@@ -613,6 +690,7 @@
             </div>
         </div>
     </div>
+
     <!-- Resources Modal -->
     <div class="portfolio-modal modal fade" id="resourcesModal" tabindex="-1" aria-labelledby="resourcesModal"
         aria-hidden="true">
@@ -621,11 +699,12 @@
                 <div class="modal-header border-0">
                     <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body text-center pb-5">
+                <div class="modal-body pb-5">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
-                                <h2 class="portfolio-modal-title text-primary text-uppercase mb-3"> Simple Resource Site
+                                <h2 class="portfolio-modal-title text-center text text-primary text-uppercase mb-3">
+                                    Simple Resource Site
                                 </h2>
                                 <p>A simple website from scratch using the Leaflet API to show resources
                                     around Chicago for those in need.
@@ -633,10 +712,11 @@
                                 <p class="mb-4">Link to demo: <a href="demo/resources/index.html">Simple Resource
                                         Site</a></p>
                                 <img class="img-fluid rounded mb-5" src="assets/portfolio/resources/1.jpeg" alt="...">
-                                <button class="btn btn-outline-primary" data-bs-dismiss="modal">
-                                    <i class="fas fa-xmark fa-fw"></i>
-                                    Close
-                                </button>
+                                <div class="text-center"> <button class="btn btn-outline-primary"
+                                        data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close
+                                    </button></div>
                             </div>
                         </div>
                     </div>
@@ -644,6 +724,7 @@
             </div>
         </div>
     </div>
+
     <!-- Portfolio Modal 4-->
     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4"
         aria-hidden="true">
@@ -652,11 +733,11 @@
                 <div class="modal-header border-0">
                     <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body text-center pb-5">
+                <div class="modal-body pb-5">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
-                                <h2 class="portfolio-modal-title text-primary text-uppercase mb-3">
+                                <h2 class="portfolio-modal-title text-center text text-primary text-uppercase mb-3">
                                     Fan Studies
                                 </h2>
                                 <p class="mb-4">Studies using a fan as a subject to demonstrate point, line, and plane
@@ -669,10 +750,11 @@
                                 <video class="mb-5" width="700" controls>
                                     <source src="assets/portfolio/fan/3.mp4" type="video/mp4">
                                 </video>
-                                <button class="btn btn-outline-primary" data-bs-dismiss="modal">
-                                    <i class="fas fa-xmark fa-fw"></i>
-                                    Close
-                                </button>
+                                <div class="text-center"> <button class="btn btn-outline-primary"
+                                        data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close
+                                    </button></div>
                             </div>
                         </div>
                     </div>
@@ -688,11 +770,11 @@
                 <div class="modal-header border-0">
                     <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body text-center pb-5">
+                <div class="modal-body pb-5">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
-                                <h2 class="portfolio-modal-title text-primary text-uppercase mb-3">
+                                <h2 class="portfolio-modal-title text-center text text-primary text-uppercase mb-3">
                                     Jeez Bananas
                                 </h2>
                                 <p class="mb-4">A sticker coloring zine to be printed on a page of label paper to be
@@ -704,10 +786,11 @@
                                 <img class="img-fluid rounded mb-5" src="assets/portfolio/jeez/4.png" alt="..." />
                                 <img class="img-fluid rounded mb-5" src="assets/portfolio/jeez/5.png" alt="..." />
                                 <img class="img-fluid rounded mb-5" src="assets/portfolio/jeez/6.png" alt="..." />
-                                <button class="btn btn-outline-primary" data-bs-dismiss="modal">
-                                    <i class="fas fa-xmark fa-fw"></i>
-                                    Close
-                                </button>
+                                <div class="text-center"> <button class="btn btn-outline-primary"
+                                        data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close
+                                    </button></div>
                             </div>
                         </div>
                     </div>
@@ -723,20 +806,21 @@
                 <div class="modal-header border-0">
                     <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body text-center pb-5">
+                <div class="modal-body pb-5">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
-                                <h2 class="portfolio-modal-title text-primary text-uppercase mb-3">
+                                <h2 class="portfolio-modal-title text-center text text-primary text-uppercase mb-3">
                                     wibbly wobbly thing</h2>
                                 <p class="mb-4">Created in Illustrator as practice for the blend
                                     feature.
                                 </p>
                                 <img class="img-fluid rounded mb-5" src="assets/portfolio/wibbly/1.png" alt="..." />
-                                <button class="btn btn-outline-primary" data-bs-dismiss="modal">
-                                    <i class="fas fa-xmark fa-fw"></i>
-                                    Close
-                                </button>
+                                <div class="text-center"> <button class="btn btn-outline-primary"
+                                        data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close
+                                    </button></div>
                             </div>
                         </div>
                     </div>

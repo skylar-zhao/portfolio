@@ -40,6 +40,11 @@ h1 {
     margin-bottom: 3rem;
 }
 
+video {
+    max-width: 100%;
+    height: auto;
+  }
+
 /* p {
     font-weight: 300;
 } */
